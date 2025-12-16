@@ -1,12 +1,12 @@
 ### Project location
-rewriteBase: /hubleto-dev/
+rewriteBase: /hubleto-webinar/
 projectUrl: http://localhost/{{ rewriteBase }}
 srcUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/erp
 assetsUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/assets
 
 ### Database connection
 dbHost: localhost
-dbUser: root
+dbUser: hubleto
 dbPassword: ''
 dbName: hbl_dev
 dbCodepage: utf8mb4
@@ -28,8 +28,8 @@ noPrompt: true
 # Uncomment following lines if you want to have full control over what
 # apps will be installed. Example below installs minimal set of apps.
 # CAUTION: order of the apps is important
-# appsToInstall:
-#   Hubleto\App\Community\Settings: []
+appsToInstall:
+   Hubleto\App\Custom\CarRental: []
 #   Hubleto\App\Community\Tools: []
 #   Hubleto\App\Community\Desktop: []
 #   Hubleto\App\Community\Usage: []
