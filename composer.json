@@ -10,9 +10,9 @@
     },
     "keywords": ["hubleto", "crm", "erp", "application", "hub"],
     "require": {
-        "hubleto/framework": "0.25.*",
-        "hubleto/erp": "0.25.*",
-        "hubleto/assets": "0.25.*"
+        "hubleto/framework": "@dev",
+        "hubleto/erp": "@dev",
+        "hubleto/assets": "@dev"
     },
     "autoload": {
         "psr-4": {
