@@ -1,0 +1,21 @@
+The Car model should contain these columns:
+- manufacturer
+- car model
+- license plate number
+- fuel type
+- gearbox
+- number of seats
+- base rental price per day
+- color of the car
+- picture of the car
+- availability
+
+The Rental History model should contain these columns:
+- Customer (1:n)
+- Car (1:n)
+- chosen length of the rental (1-3 days, 4 - 6 days, 7 - 10 days ) (enum)
+- date of the rental
+- expected end date of the rental
+- date when the rental car was returned
+- full price of the rental period
+- completion of the rent period (yes/no)
