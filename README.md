@@ -1,6 +1,6 @@
 # CarRental Hubleto App
 
-This app was developed during the Webinar on 17th December 2025.
+This app was developed during the Webinar on 17th December 2025. The formal requirements can be found in [requirements.txt](requirements.txt).
 
 # Features
 - 2 models: Car and RentalHistory
