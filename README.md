@@ -12,6 +12,7 @@ Feel free to explore the code and extend the functionality.
 # Installation
 - See `init-config-dev.yaml` for configuration details, do not forget to set the CarRental app to install as well under `appsToInstall`
 - Copy the `CarRental` folder to the apps directory of your Hubleto instance
+- The branch `reference` contains the full Hubleto erp-project set-up, forked from the version 0.25.
 
 # Stay connected!
 - [Hubleto on GitHub](https://github.com/hubleto)
