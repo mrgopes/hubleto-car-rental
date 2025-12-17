@@ -6,7 +6,7 @@ assetsUrl: http://localhost/{{ rewriteBase }}/vendor/hubleto/assets
 
 ### Database connection
 dbHost: localhost
-dbUser: hubleto
+dbUser: user
 dbPassword: ''
 dbName: hbl_dev
 dbCodepage: utf8mb4
